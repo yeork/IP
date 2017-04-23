@@ -1,0 +1,35 @@
+/* 
+    Document   : controlStyle
+*/
+
+.root{
+    -fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-base: #303030;
+    -fx-background: #303030;
+}
+
+.button{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 12pt; /* 12 */
+    -fx-text-fill: #F0F8FF;
+    -fx-font-weight: bold;
+}
+
+/* .button:focused {
+    -fx-border-color: transparent, black;
+    -fx-border-width: 1, 1;
+    -fx-border-style: solid, segments(1, 2);
+    -fx-border-radius: 0, 0;
+} */
+
+.button:pressed {
+    -fx-background-color: black;
+}
+.button:hover {
+    -fx-background-color: dimgray
+}
